@@ -1,0 +1,192 @@
+{
+    "pop": {
+        "melody_params": {
+            "happy": {
+                "rhythm": [1, 0.5, 0.5, 1, 1],
+                "intervals": [-2, -1, 0, 2, 4, 5, 7],
+                "velocity_range": [0.7, 1.0],
+                "syncopation": 0.3
+            },
+            "sad": {
+                "rhythm": [2, 1, 1, 2],
+                "intervals": [-3, -2, 0, 2, 3, 5],
+                "velocity_range": [0.5, 0.8],
+                "syncopation": 0.1
+            },
+            "energetic": {
+                "rhythm": [0.5, 0.5, 0.5, 0.5, 1],
+                "intervals": [0, 2, 4, 7, 9],
+                "velocity_range": [0.8, 1.0],
+                "syncopation": 0.4
+            },
+            "relaxed": {
+                "rhythm": [1.5, 0.5, 1, 1],
+                "intervals": [-1, 0, 2, 4, 7],
+                "velocity_range": [0.6, 0.8],
+                "syncopation": 0.2
+            }
+        },
+        "chord_progressions": {
+            "verse": ["I", "V", "vi", "IV"],
+            "chorus": ["IV", "I", "V", "vi"],
+            "bridge": ["vi", "IV", "I", "V"]
+        },
+        "rhythm_patterns": {
+            "basic": [1, 0, 0.5, 0, 1, 0, 0.5, 0],
+            "syncopated": [0.5, 0.5, 1, 0, 0.5, 0.5, 1, 0],
+            "driving": [0.25, 0.25, 0.25, 0.25, 1, 0, 0.5, 0.5]
+        }
+    },
+    "rock": {
+        "melody_params": {
+            "happy": {
+                "rhythm": [1, 1, 0.5, 0.5, 1],
+                "intervals": [0, 2, 4, 5, 7, 9],
+                "velocity_range": [0.8, 1.0],
+                "syncopation": 0.3
+            },
+            "sad": {
+                "rhythm": [2, 1, 1, 2, 2],
+                "intervals": [-3, -1, 0, 2, 3],
+                "velocity_range": [0.7, 0.9],
+                "syncopation": 0.2
+            },
+            "energetic": {
+                "rhythm": [0.25, 0.25, 0.5, 0.5, 0.5],
+                "intervals": [0, 2, 5, 7, 12],
+                "velocity_range": [0.9, 1.0],
+                "syncopation": 0.5
+            },
+            "relaxed": {
+                "rhythm": [1, 1, 1, 1],
+                "intervals": [-2, 0, 3, 5, 7],
+                "velocity_range": [0.6, 0.8],
+                "syncopation": 0.1
+            }
+        },
+        "chord_progressions": {
+            "verse": ["I", "IV", "V", "IV"],
+            "chorus": ["I", "V", "IV", "IV"],
+            "bridge": ["vi", "IV", "V", "I"]
+        },
+        "rhythm_patterns": {
+            "basic": [1, 0.5, 0.5, 1, 1, 0.5, 0.5, 1],
+            "heavy": [1, 1, 1, 1, 1, 1, 1, 1],
+            "punk": [0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25, 0.25]
+        }
+    },
+    "jazz": {
+        "melody_params": {
+            "happy": {
+                "rhythm": [0.5, 0.25, 0.25, 1, 0.5],
+                "intervals": [-2, 0, 2, 3, 5, 7, 9, 11],
+                "velocity_range": [0.6, 0.9],
+                "syncopation": 0.7
+            },
+            "sad": {
+                "rhythm": [1.5, 0.5, 1, 1, 2],
+                "intervals": [-3, -1, 0, 2, 4, 6, 8],
+                "velocity_range": [0.5, 0.8],
+                "syncopation": 0.6
+            },
+            "energetic": {
+                "rhythm": [0.25, 0.25, 0.5, 0.25, 0.25],
+                "intervals": [0, 2, 4, 6, 8, 10],
+                "velocity_range": [0.7, 1.0],
+                "syncopation": 0.8
+            },
+            "relaxed": {
+                "rhythm": [1, 0.5, 0.5, 1, 1],
+                "intervals": [-2, 0, 2, 4, 6, 8],
+                "velocity_range": [0.4, 0.7],
+                "syncopation": 0.5
+            }
+        },
+        "chord_progressions": {
+            "verse": ["ii7", "V7", "IMaj7", "vi7"],
+            "chorus": ["IMaj7", "vi7", "ii7", "V7"],
+            "bridge": ["iii7", "vi7", "ii7", "V7"]
+        },
+        "rhythm_patterns": {
+            "swing": [1.33, 0.67, 1.33, 0.67],
+            "bebop": [0.5, 0.25, 0.25, 0.5, 0.25, 0.25],
+            "ballad": [2, 1, 1, 2]
+        }
+    },
+    "electronic": {
+        "melody_params": {
+            "happy": {
+                "rhythm": [0.25, 0.25, 0.25, 0.25, 1],
+                "intervals": [0, 4, 7, 12],
+                "velocity_range": [0.8, 1.0],
+                "syncopation": 0.6
+            },
+            "sad": {
+                "rhythm": [1, 0.5, 0.5, 2],
+                "intervals": [-5, -2, 0, 3, 7],
+                "velocity_range": [0.6, 0.9],
+                "syncopation": 0.4
+            },
+            "energetic": {
+                "rhythm": [0.125, 0.125, 0.25, 0.25, 0.25],
+                "intervals": [0, 4, 7, 11, 12],
+                "velocity_range": [0.9, 1.0],
+                "syncopation": 0.7
+            },
+            "relaxed": {
+                "rhythm": [2, 1, 1, 2],
+                "intervals": [0, 3, 7, 10],
+                "velocity_range": [0.5, 0.8],
+                "syncopation": 0.3
+            }
+        },
+        "chord_progressions": {
+            "verse": ["i", "VI", "III", "VII"],
+            "chorus": ["i", "VI", "v", "VII"],
+            "bridge": ["III", "VII", "i", "v"]
+        },
+        "rhythm_patterns": {
+            "four_on_floor": [1, 0, 1, 0, 1, 0, 1, 0],
+            "breakbeat": [1, 0.5, 0.5, 1, 0.5, 0.5],
+            "ambient": [2, 0, 2, 0]
+        }
+    },
+    "classical": {
+        "melody_params": {
+            "happy": {
+                "rhythm": [0.5, 0.5, 1, 1, 0.5, 0.5],
+                "intervals": [-2, 0, 2, 4, 5, 7, 9],
+                "velocity_range": [0.5, 0.9],
+                "syncopation": 0.2
+            },
+            "sad": {
+                "rhythm": [2, 1, 1, 2, 2],
+                "intervals": [-3, -1, 0, 2, 4, 5],
+                "velocity_range": [0.4, 0.8],
+                "syncopation": 0.1
+            },
+            "energetic": {
+                "rhythm": [0.25, 0.25, 0.5, 0.5, 0.25, 0.25],
+                "intervals": [0, 2, 4, 7, 9, 12],
+                "velocity_range": [0.7, 1.0],
+                "syncopation": 0.3
+            },
+            "relaxed": {
+                "rhythm": [1.5, 0.5, 1, 1, 2],
+                "intervals": [-2, 0, 3, 5, 7],
+                "velocity_range": [0.4, 0.7],
+                "syncopation": 0.1
+            }
+        },
+        "chord_progressions": {
+            "verse": ["I", "IV", "V", "I"],
+            "development": ["vi", "ii", "V", "I"],
+            "coda": ["IV", "V", "I", "I"]
+        },
+        "rhythm_patterns": {
+            "waltz": [1, 0.5, 0.5, 1, 0.5, 0.5],
+            "minuet": [1, 1, 1, 1, 1, 1],
+            "allegro": [0.25, 0.25, 0.25, 0.25, 0.5, 0.5]
+        }
+    }
+}
