@@ -1,0 +1,59 @@
+/* Custom styles for Redemption AI App */
+
+/* Color Scheme */
+:root {
+    --primary-color: #FF5733; /* Vibrant Coral */
+    --secondary-color: #2C3E50; /* Dark Blue */
+    --background-color: #ECF0F1; /* Light Silver */
+    --text-color: #34495E; /* Dark Slate */
+    --button-hover-color: #C0392B; /* Darker Coral on hover */
+}
+
+/* Body */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif; /* Example font from Google Fonts */
+}
+
+/* Sidebar */
+aside {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/* Buttons */
+button {
+    background-color: var(--primary-color);
+    color: white; /* Change text color to white for better contrast */
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--button-hover-color); /* Darker Coral on hover */
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--button-hover-color); /* Darker Coral on hover */
+}
+
+/* Card Styles */
+.card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+    }
+}
